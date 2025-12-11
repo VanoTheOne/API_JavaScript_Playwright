@@ -14,10 +14,8 @@ module.exports = defineConfig({
   timeout: 30000,
   // globalSetup: './projects/imdb/global/globalSetup.js',
   // globalTeardown: './global/globalTeardown.js',
-  testDir: '.',
-  testMatch: [
-    '**/api_js/tests/**/*.spec.js'
-  ],
+  testDir: './tests',
+  testMatch: ['**/*.spec.js'],
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
